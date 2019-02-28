@@ -1,0 +1,99 @@
+/*Computer (1920 x 1080)*/
+@media screen and (max-width:1920px){
+}
+
+/*Point break*/
+@media screen and (max-width:1170px){
+	#wrapper{
+		width: 100%;
+	}
+
+	#header>a{
+		background: #f2f2f2;
+	}
+
+	a#logo>img{
+		padding: 20px 0px 0px 11%;
+	}
+	#after_logo{
+		display: none;
+	}
+	#info_reche{
+		position: absolute;
+		top: 100%;
+	    width: 100%;
+	    background: #f2f2f2;
+	}
+
+	#recherche{
+		left: 10px;
+	    width: 90%;
+	    min-width: 10px;
+	    margin-left: 5%;
+	}
+	.box{
+		width: 74%;
+	}
+	.compte, #cart{
+		top: -56px;
+	}
+	ul.sous_menu{
+		list-style-type: none;
+	    left: 0px;
+	    width: 100%;
+	    display: block;
+	    padding-left: 31%;
+	    padding-right: 31%;
+	}
+	#wp-sans-header{
+		position: relative;
+    	top: 119px;
+	}
+	#content>ul>li{
+		margin-right: 1.8%;
+	    width: 45%;
+	    overflow: hidden;
+	    margin-left: 3.6%;
+	}
+	.thumb{
+		width: 100%;
+	}
+	#content ul li:nth-child(3n){
+		margin-right: 1.8%;
+	}
+	#content ul li:nth-child(2n){
+		margin-right: 0;
+		float: right;
+	}
+	#wp-content{
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	#classificateur h1{
+		padding-left: 11%;
+	}
+	#classificateur>ul>li{
+		padding: 11% 0 6.8% 11%;
+		/*font-size: -=1px;*/
+	}
+}
+
+/*Ipad ngang hoac may tinh nho doc(1024 x 768)*/
+@media screen and (max-width: 1024px) {
+}
+
+/*Ipad doc (768 x 1024)*/
+@media screen and (max-width: 768px) {
+}
+
+/*Tablet nho (480 x 640)*/
+@media screen and (max-width: 480px) {
+}
+
+/*Iphone (480 x 640)*/
+@media screen and (max-width: 320px) {
+}
+
+/*Smartphone nho*/
+@media screen and (max-width: 240px) {
+}
